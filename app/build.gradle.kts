@@ -50,6 +50,16 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.ui.text.google.fonts)
+
+
+    implementation ("androidx.compose.ui:ui:<version>")
+    implementation ("androidx.compose.material3:material3:<version>")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:<version>")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:<version>")
+
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
